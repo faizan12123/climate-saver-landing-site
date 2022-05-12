@@ -29,6 +29,8 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">MEET THE TEAM</a></li>
                         <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#features">Features</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#architecture">Framework Design</a></li>
                         <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#tech-skill">Technologies and Skills</a></li>
                         <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#gallery">Gallery</a></li>
                     </ul>
@@ -152,21 +154,26 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">The Mission: <p class="lead">Climate Saver is a free to play web-based video game made to educate it's players about climate change and what they can do to help the ongoing dillema.</p> </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">The game features 4 different environments to play in: 
-                        <ul><li>The first environment is located at a beach where the player has to pick up people's trash before it reaches the ocean in order to save the sea animals from being effected by the trash.</li>
-                    <li>The second environment is located in a city and the goal of this level is to sort out pollutants and chemicals to protect the city from pollution.</li> 
-                <li>The third environment is located at a forest. The goal of this level is to stop a fire from spreading before it reaches the nearby civilians' homes.</li>
-            <li>The fourth environment is located at an icey place. The goal of this environment is to save the ice from melting by protecting it from the sun.</li></ul></p>
+                    <div class="col-lg-4 ms-auto"><p class="lead">The Purpose: <p class="lead">Climate Saver is a free to play web-based video game made to educate it's players about climate change and what they can do to help the ongoing dillema.</p> </p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">The Different Environments in Climate Saver:  
+                        <ul><li>Beach</li>
+                            
+                    <li>City </li> 
+                <li>Forest</li>
+            <li>Icey</li>
+
+        </ul></p>
         </div>
-        <div class="col-lg-4 ms-auto"><p class="lead">Education: <p class="lead">Throughout every level there will be facts and statistics provided about climate change. At the end of every level the player must take a quiz to test their knowledge about climate change gained from the game.</p></p></div>
+        <div class="col-lg-4 ms-auto"><p class="lead">Education: <p class="lead">After every environment played, users will be prompted to take a quiz. There is a quiz for each environment and the questions are relevant to each environment.</p></p></div>
                 </div>
             </div>
         </section>
-        <section class="page-section playbuttonbackground text-white mb-0" id="tech-skill">
+
+        <!-- features section-->
+        <section class="page-section playbuttonbackground text-secondary mb-0" id="features">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary">Technologies and Skills</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">Features of Climate Saver</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-dark">
                     <div class="divider-custom-line"></div>
@@ -174,6 +181,78 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
+                <div class="row">
+                    
+                    <div class=" me-auto text-size h5 "><p class="lead">
+                        <li class = "mb-4">The first environment is located at a beach where the player has to pick up common beach trash and chose to either recycle it or trash it.</li>
+                            
+                    <li class = "mb-4">The second environment is located at a city where the player has to pick up common city pollutants or trash and chose to either recycle it or trash it.</li> 
+                <li class = "mb-4">The third environment is located at a forest where the player has to pick up trash that is found in the forest and chose to either recycle it or trash it.</li>
+            <li class = "mb-4">The fourth environment is located at a an icey place where the player has to pick up common trash to icey places and chose to either recycle it or trash it.</li>
+            <li class = "mb-4">Each level allows the users to chose to recycle or trash the items they collide with. If they choose wrong, their health decreases, but if they chose correctly, their health increases.</li>
+            <li class = "mb-4">Each level lasts 60 seconds</li>
+            <li class = "mb-4">Users are allowed to chose if they want to control the user using WASD keys or Arrow keys</li>
+            <li class = "mb-4">Users are allowed to control the volume. They can turn the music on and off. They can lower or raise the volume. Same goes with the sound effects</li>
+            <li class = "mb-4">After each level users are prompted to take a quiz</li>
+            <li class = "mb-4">There is quizzes for every environment</li>
+        </p>
+        </div>
+       
+                </div>
+            </div>
+        </section>
+
+<!-- architecture Section-->
+<section class="page-section bg-dark text-white mb-0 " id="architecture">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Framework Design</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="row">
+            <div class="col-lg-4 ms-auto"> <img class="img-fluid" src="assets\img\Screenshot 2022-05-11 231732.png" alt="..." /> <p class="lead"> <p class="lead"></p> </p></div>
+            <div class="col-lg-4 me-auto"><p class="lead"> Key Points: 
+                <ul><li>Our framework employs a single page architecture</li>
+                    
+            <li>application exists entirely  on a single HTML file </li> 
+        <li class = "">As users navigate through the application, the user interface will be redrawn without requiring a server to retrieve and render a new HTML file</li>
+    <li>the process starts with the initial request.</li>
+    <li>the process starts with the initial request.</li>
+    <li>client is requesting to visit the web page that contains our game</li>
+
+</ul></p>
+</div>
+<div class="col-lg-4 ms-auto"><p class="lead">Walk through: <p class="lead"><ul>
+    <li>the process starts with the initial request.</li>
+    <li>the process starts with the initial request.</li>
+    <li>client is requesting to visit the web page that contains our game</li>
+    <li>server will retrieve our HTML and javascript files and it will send them back over to the client</li>
+    <li>The HTML will be rendered, the javascript files will run, and the game will be displayed.</li>
+</ul>
+</p></p></div>
+        </div>
+    </div>
+</section>
+
+
+        <section class="page-section playbuttonbackground text-white mb-0" id="tech-skill">
+            <div class="container">
+                <!-- tech Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">Technologies and Skills</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+
+                
+                <!-- tech Section Content-->
                 <div class="row">
                     <div class="col-lg-4 ms-auto text-secondary"><p class="lead"><strong>The technologies used to create Climate Saver: </strong> 
                         <ul class="lead"><li><a href= "https://phaser.io/">Phaser.io</a> for game development.</li>
@@ -189,13 +268,16 @@
         
                 </div>
             </div>
+
+
+            
         </section>
         <!-- gallery -->
         <!-- Portfolio Section-->
         <section class="page-section portfolio bg-dark" id="gallery">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Gallery</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Gallery & Demo</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -221,19 +303,10 @@
                                 <div class=" text-center text-white"></div>
                             </div>
                             <h1 class="text-center text-white">Map Selection</h1>
-                            <img class="img-fluid" src="assets/img/maps.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/maps2.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
-                            <div class=" d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="text-center text-white"></div>
-                            </div>
-                            <h1 class="text-center text-white">City Map</h1>
-                            <img class="img-fluid" src="assets/img/city.png" alt="..." />
-                        </div>
-                    </div>
+   
                     <!-- Portfolio Item 4-->
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto">
@@ -241,7 +314,47 @@
                                 <div class=" text-center text-white"></div>
                             </div>
                             <h1 class="text-center text-white">Beach Map</h1>
-                            <img class="img-fluid" src="assets/img/beach.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/beach2.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- city map -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto">
+                            <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class=" text-center text-white"></div>
+                            </div>
+                            <h1 class="text-center text-white">City Map</h1>
+                            <img class="img-fluid" src="assets/img/city2.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- icey map -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto">
+                            <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class=" text-center text-white"></div>
+                            </div>
+                            <h1 class="text-center text-white">Icey Map</h1>
+                            <img class="img-fluid" src="assets/img/icey2.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- forest map -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto">
+                            <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class=" text-center text-white"></div>
+                            </div>
+                            <h1 class="text-center text-white">Forest Map</h1>
+                            <img class="img-fluid" src="assets/img/forest2.png" alt="..." />
+                        </div>
+                    </div>
+                     <!-- quiz map -->
+                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto">
+                            <div class=" d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class=" text-center text-white"></div>
+                            </div>
+                            <h1 class="text-center text-white">Quiz Selection</h1>
+                            <img class="img-fluid" src="assets/img/quiz2.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -264,16 +377,58 @@
                             <img class="img-fluid" src="assets/img/credits.png" alt="..." />
                         </div>
                     </div>
+                    <h1 class="text-center text-white mt-5">Demo</h1>
+                    <iframe width="560" height="700" src="https://www.youtube.com/embed/Zu3ShgYlfic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
         
         
         <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white playbuttonbackground">
-            <img class= "imageSize"src="assets/img/logo-version5.png" alt="">
-            <div class="container text-secondary"><small>Copyright &copy; Climate Saver 2022</small></div>
-        </div>
+        <footer class="playbuttonbackground text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/calstatenorthridge" role="button"
+                   ><i class="fab fa-facebook-f"></i
+                  ></a>
+      
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/csunorthridge?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" role="button"
+                   ><i class="fab fa-twitter"></i
+                  ></a>
+    
+      
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/csun_edu/?hl=en" role="button"
+                   ><i class="fab fa-instagram"></i
+                  ></a>
+      
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/school/california-state-university-northridge/" role="button"
+                   ><i class="fab fa-linkedin-in"></i
+                  ></a>
+      
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/faizan12123/Climate-Saver" role="button"
+                   ><i class="fab fa-github"></i
+                  ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+            <div class="text-center text-white playbuttonbackground">
+                <div class="container text-secondary"><small><a href = "https://www.csun.edu/~xjiang/SeniorDesign/">Click Here to Return To The Course Website!</a></small></div>
+            </div>
+            <div class="copyright  text-center text-white playbuttonbackground">
+                <img class= "imageSize"src="assets\img\CSUN-logo.png" alt="">
+                <div class="container text-secondary"><small>Copyright &copy; California State University, Northridge</small></div>
+            </div>
+          </footer>
+      
+        
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
