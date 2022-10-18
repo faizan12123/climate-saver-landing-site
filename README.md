@@ -4,4 +4,4 @@ This is the blog site for a video game called Climate Saver ( https://faizan1212
 
 ## Link to the website hosted live
 
-https://faizan12123.github.io/climate-saver-landing-page 
+https://faizan12123.github.io/climate-saver-landing-site 
